@@ -1,0 +1,65 @@
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:textSize="16sp"
+    >
+
+    <!-- children views goes here -->
+
+
+   <EditText
+       android:id="@+id/num1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="enter first number"
+       android:inputType="numberDecimal"
+       android:minHeight="48dp"
+       />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter second number"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            />
+
+        <Button
+            android:id="@+id/subtract"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"/>
+
+
+    </LinearLayout>
+
+<TextView
+    android:id="@+id/result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="result"
+    android:layout_marginTop="16dp"
+    android:textSize="18sp"
+    android:gravity="center "
+    />
+
+
+</LinearLayout>
